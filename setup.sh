@@ -11,7 +11,7 @@ textColor = '#FFFFFF'\n\
 font = "monospace"\
 " > .streamlit/config.toml
 
-echo "/
+echo "\
 input[type=message], input[type=email], input[type=text], textarea {\n\
   width: 100%;\n\
   padding: 12px;\n\
@@ -34,3 +34,16 @@ button[type=submit]:hover {\n\
   background-color: #45a049;\n\
 }\
 " > style/style.css
+
+cd images
+wget https://github.com/the-real-finnventor/learn-streamlit/blob/main/images/computer-science.png?raw=true
+mv computer-science.png?raw=true computer-science.png
+wget https://github.com/the-real-finnventor/learn-streamlit/blob/main/images/finnventions-logo.png?raw=true
+mv finnventions-logo.png?raw=true finnventions-logo.png
+wget https://github.com/the-real-finnventor/learn-streamlit/blob/main/images/galleons.png?raw=true
+mv galleons.png?raw=true galleons.png
+wget https://github.com/the-real-finnventor/learn-streamlit/blob/main/images/wordle-solutions.png?raw=true
+mv wordle-solutions.png?raw=true wordle-solutions.png
+wget https://github.com/the-real-finnventor/learn-streamlit/blob/main/images/wordlebot.png?raw=true
+mv wordlebot.png?raw=true wordlebot.png
+cd .
