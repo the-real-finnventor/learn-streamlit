@@ -3,7 +3,7 @@ from streamlit_lottie import st_lottie
 import requests
 from PIL import Image
 
-st.set_page_config(page_title="Me",
+st.set_page_config(page_title="Finn",
                    page_icon=":brain:", layout="wide")
 
 
