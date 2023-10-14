@@ -46,7 +46,7 @@ with st.container():
     with left_column:
         st.header("What I do")
         st.write("##")
-        st.write("I go around looking for different thing to learn. These are mostly python web frameworks currently. I specilize in python though I also do plenty of other things.")
+        st.write("I go around looking for different things to learn. These are mostly python web frameworks currently. I specialize in python though I also do plenty of other things.")
         st.write("[My blog](https://finnventions.com)")
     with right_column:
         st_lottie(LOTTIE_CODING, height=300, key="coding")
